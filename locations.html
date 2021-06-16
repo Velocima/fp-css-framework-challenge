@@ -8,14 +8,15 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-    <header class="w-screen flex flex-row items-center p-1 justify-between bg-white shadow-xs">
-        <div class="ml-8 text-lg text-gray-700 hidden md:flex">Tasty Delicious Sandwiches</div>
-        <nav class="flex flex-row mr-8 hidden md:flex">
+    <header class="w-full flex flex-col sm:flex-row items-center p-1 justify-between bg-white shadow-xs">
+        <div class="sm:ml-8 text-lg text-gray-700 flex">Tasty Delicious Sandwiches</div>
+        <nav class="flex flex-row sm:mr-8 flex">
             <a
                 class="
                     text-gray-800 text-center
-                    bg-gray-300
-                    px-4
+                    bg-gray-300 
+                    sm:px-4
+                    px-2
                     py-2
                     m-2
                     rounded-md
@@ -28,7 +29,8 @@
                 class="
                     text-gray-800 text-center
                     bg-gray-300
-                    px-4
+                    sm:px-4
+                    px-2
                     py-2
                     m-2
                     rounded-md
@@ -41,7 +43,8 @@
                 class="
                     text-gray-800 text-center
                     bg-gray-300
-                    px-4
+                    sm:px-4
+                    px-2
                     py-2
                     m-2
                     rounded-md
