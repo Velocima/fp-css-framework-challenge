@@ -8,34 +8,50 @@
 		<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
 	</head>
 	<body>
-		<nav
-			class="
-				fixed
-				right-10
-				top-10
-				p-6
-				bg-blue-100
-				rounded-xl
-				shadow-md
-				flex-col flex
-				items-center
-				space-y-4
-			"
-		>
-			<a href="/" class="rounded-md bg-blue-400 p-2 shadow-md text-xl hover:bg-blue-300"
-				>Home</a
-			>
-			<a
-				href="/locations.html"
-				class="rounded-md bg-blue-400 p-2 shadow-md text-xl hover:bg-blue-300"
-				>Locations</a
-			>
-			<a
-				href="/recipe.html"
-				class="rounded-md bg-blue-400 p-2 shadow-md text-xl hover:bg-blue-300"
-				>Recipes</a
-			>
-		</nav>
+		<header class="w-screen flex flex-row items-center p-1 justify-between bg-white shadow-xs">
+			<div class="ml-8 text-lg text-gray-700 hidden md:flex">Tasty Delicious Sandwiches</div>
+			<nav class="flex flex-row-reverse mr-8 hidden md:flex">
+				<a
+					class="
+						text-gray-800 text-center
+						bg-gray-300
+						px-4
+						py-2
+						m-2
+						rounded-md
+						hover:bg-gray-200
+					"
+					href="/"
+					>Home</a
+				>
+				<a
+					class="
+						text-gray-800 text-center
+						bg-gray-300
+						px-4
+						py-2
+						m-2
+						rounded-md
+						hover:bg-gray-200
+					"
+					href="/locations.html"
+					>Locations</a
+				>
+				<a
+					class="
+						text-gray-800 text-center
+						bg-gray-300
+						px-4
+						py-2
+						m-2
+						rounded-md
+						hover:bg-gray-200
+					"
+					href="/recipe.html"
+					>Recipes</a
+				>
+			</nav>
+		</header>
 		<h1>Sandwiches</h1>
 	</body>
 </html>
